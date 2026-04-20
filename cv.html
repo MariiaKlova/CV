@@ -140,7 +140,8 @@ a:hover {
     margin-bottom: 10px
 }
 
-.education-item-duration {
+.education-item-duration, 
+.skills-list {
     color: #cce428;
     font-weight: 700;
     display: flex;
@@ -291,18 +292,6 @@ ul {
 
 .icon-calendar {
     background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 12h4v4h-4zM16 12h4v4h-4zM22 12h4v4h-4zM4 24h4v4h-4zM10 24h4v4h-4zM16 24h4v4h-4zM10 18h4v4h-4zM16 18h4v4h-4zM22 18h4v4h-4zM4 18h4v4h-4zM26 0v2h-4v-2h-14v2h-4v-2h-4v32h30v-32h-4zM28 30h-26v-22h26v22z' fill='%23a4a4a4'/%3E%3C/svg%3E%0A")
-}
-
-.skills-list{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.skill-item {
-    flex: 0 0 33%;
-    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -465,44 +454,17 @@ ul {
 
                     <div class="skills">
                         <h2>TECHNICAL SKILLS</h2>
-                            <p class="education-item-duration">Frontend:</p>
-                                <ul class="skills-list"> 
-                                    <li class="skill-item">Angular</li>
-                                    <li class="skill-item">Vue</li>
-                                    <li class="skill-item">HTML5</li>
-                                    
-                                    <li class="skill-item">TypeScript</li>
-                                    <li class="skill-item">JavaScript</li>
-                                    <li class="skill-item">SCSS/SASS</li>
-                                </ul>
-                            <p class="education-item-duration">UI & Styling:</p>
-                                <ul class="skills-list"> 
-                                    <li class="skill-item">RWD, BEM</li>
-                                    <li class="skill-item">Tailwind</li>
-                                    <li class="skill-item">Bootstrap</li>
-                                </ul>
-                            <p class="education-item-duration">UI & Styling:</p>
-                                <ul class="skills-list"> 
-                                    <li class="skill-item">DOM</li>
-                                    <li class="skill-item">REST API</li>
-                                    <li class="skill-item">JSON, AJAX</li>
-                                 </ul>
-                               <p class="education-item-duration">Tools:</p>
-                                <ul class="skills-list"> 
-                                    <li class="skill-item">Git, Bitbucket</li>
-                                    <li class="skill-item">Docker</li>
-                                    <li class="skill-item">Vite, Webpack</li>
-                                
-                                    <li class="skill-item">Jira</li>
-                                    <li class="skill-item">Figma</li>
-                                    <li class="skill-item">Postman</li>
-                                 </ul>
-                            <p class="education-item-duration">Basic / Previous experience:</p>
-                                <ul class="skills-list"> 
-                                    <li class="skill-item">jQuery</li>
-                                    <li class="skill-item">PHP</li>
-                                    <li class="skill-item">SAP Hybris</li>
-                                </ul>
+                            <p class="skills-list">Frontend:</p>
+                            <p>Angular, TypeScript, JavaScript (ES6+), HTML5, SCSS/SASS</p>
+                         <p class="skills-list">UI & Styling:</p>
+                            <p>Responsive Design (RWD), BEM, Tailwind, Bootstrap</p>
+                         <p class="skills-list">Data & Integration:</p>
+                            <p>REST API, JSON, AJAX, DOM</p>
+                         <p class="skills-list">Tools:</p>
+                            <p>Git, Bitbucket, Docker, Vite, Webpack, Jira, Figma, Postman</p>
+                        <p class="skills-list">Basic / Previous experience:</p>
+                            <p>Vue, jQuery, PHP, SAP Hybris</p>
+                               
                     </div>
                 </div>
             </section>
